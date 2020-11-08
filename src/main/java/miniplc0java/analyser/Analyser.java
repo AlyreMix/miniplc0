@@ -399,7 +399,7 @@ public final class Analyser {
             }
 
             // 运算符
-            next();
+            op = next();
 
             // 因子
             analyseFactor();
